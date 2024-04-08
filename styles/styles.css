@@ -1,0 +1,82 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+.center{
+  text-align: center;
+}
+
+.activityBtn{
+  display: block;
+  margin: 10px, 30px;
+  text-align: center;
+  transform: translate(200px,0px);
+}
+#activityInputBox {
+  text-align: center;
+  transform: translate(210px,0px);
+
+}
+
+.days{
+  transform: translate(90px,0px);
+
+}
+
+.lightBlue{
+  color: lightblue;
+}
+
+.arrowStyleBullet{
+  list-style-type: "→ ";
+  padding: 0;
+}
+
+section{
+  margin: 20px;
+  display: flex;
+  width: 100%;
+  gap: 16px;
+  align-items: center;
+}
+
+.border{
+  border: 1px solid rgb(0, 126, 205);
+  padding: 20px;
+  margin-top: 30px;
+  transform: translate(-50px,0px);
+
+  
+}
+
+.cross-out {
+  text-decoration: line-through;
+}
+
+.weekDays{
+  transform: translate(0px,-15px);
+
+}
+
+.RED{
+  color: 	#b22222;
+}
+
+.BLUE{
+  color: #6FA8DC;
+}
+
+.GREEN{
+  color: #6AA84F;
+}
+
+.YELLOW{
+  color: 	#ff9d1e;
+}
