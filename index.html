@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Activity List</title> 
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="icon" type="image/png" sizes="16x16"  href="../favicon/favicon-16x16.png?v=2">
+        <script type="text/javascript" src="javascript/script.js"></script>
+    </head>
+    <body>
+        <h1 class="center">Daily Agenda</h1>
+        <h4 class="center">List</h4>
+        <section>
+            <label class="days">Chose a day and type:</label>
+            <select name="days" class="days" id="activityInputDay">
+                <option value="SUN">Sunday</option>
+                <option value="MON">Monday</option>
+                <option value="TUES">Tuesday</option>
+                <option value="WED">Wednesday</option>
+                <option value="THUR">Thursday</option>
+                <option value="FRI">Friday</option>
+                <option value="SAT">Saturday</option>
+            </select>
+
+            <select name="color" class="days" id="activityInputType">
+                <option value="RED" class="RED">Homework</option>
+                <option value="BLUE" class="BLUE">Athletics</option>
+                <option value="YELLOW" class="YELLOW">Social</option>
+                <option value="GREEN" class="GREEN">Health</option>
+            </select>
+
+            <input type="text" id="activityInputBox" placeholder="Add an activity">
+            <button class="activityBtn" id="addActivity">Add the activity</button>
+        </section>
+        <section>
+            <ol class="border" id="activityListSUN">
+                <p class="weekDays">Sunday</p>
+                <!-- <li>Example task</li> -->
+            </ol>
+            <ol class="border" id="activityListMON">
+                <p class="weekDays">Monday</p>
+                <!-- <li>Example task</li> -->
+            </ol>
+            <ol class="border" id="activityListTUES">
+                <p class="weekDays">Tuesday</p>
+                <!-- <li>Example task</li> -->
+            </ol>
+            <ol class="border" id="activityListWED">
+                <p class="weekDays">Wednesday</p>
+                <!-- <li>Example task</li> -->
+            </ol>
+            <ol class="border" id="activityListTHUR">
+                <p class="weekDays">Thursday</p>
+                <!-- <li>Example task</li> -->
+            </ol>
+            <ol class="border" id="activityListFRI">
+                <p class="weekDays">Friday</p>
+                <!-- <li>Example task</li> -->
+            </ol>
+            <ol class="border" id="activityListSAT">
+                <p class="weekDays">Saturday</p>
+                <!-- <li>Example task</li> -->
+            </ol>
+        </section>    
+    </body>
+</html>
